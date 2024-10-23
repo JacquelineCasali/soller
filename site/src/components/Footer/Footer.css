@@ -1,0 +1,50 @@
+footer  {
+height: 95px;
+width: 100%;
+padding:  0 80px ;
+background: var(--branco);  
+display: flex;
+align-items: center;
+
+
+}
+.footer{
+  /* padding:  24px 0 ; */
+  gap: 24px;
+  display: flex;
+  align-items: center;
+
+}
+
+
+.companyName {
+  width: 792px;
+  height: 23px;
+  font-weight: 400;
+font-size: var(--xm);
+line-height: 22.4px;
+color:var(--black) ;
+}
+
+.verticalMenu{
+display: flex;
+  gap:24px ;
+  align-items: center;
+  /* margin-left: 654px; */
+  justify-content: right;
+  width: 792px;
+}
+
+.footerLink{
+  width: 45px;
+  padding: 12px 0;
+  gap: 8px;
+  color:var(--black) ;
+  font-weight: 400;
+  font-size: var(--xm);
+  line-height: 22.4px;
+
+}
+@media screen and (max-width: 940px) {
+
+}

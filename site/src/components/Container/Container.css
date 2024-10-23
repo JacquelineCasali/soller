@@ -1,0 +1,50 @@
+.container {
+    background: var(--roxoClaro);
+    height: 949px;
+    width: 100%;
+       background-blend-mode: multiply;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+ 
+  .eclipse {
+    width: 782px;
+    height: 780px;
+    background-repeat: no-repeat;
+    background-image: url(../../../public/image/Ellipse1.png);
+    padding-top: 160px;
+    display: flex;
+  
+    gap: 16px;
+    flex-direction: column;
+    align-items: center;
+    background-position:  top right ;
+  }
+  
+  .sectionText {
+    padding-top: 80px;
+       width: 894px;
+    gap: 24px;
+  
+    display: flex;
+    margin-left: 200px;
+    margin-top: 40px;
+  
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  
+  .textRight{
+      font-weight: 400;
+      font-size: var(--xm);
+      color: var(--branco);
+      line-height: 28.8px;
+  
+  }
+  
+  .screen {
+  display: flex;
+    object-fit: cover;
+  }
+  
