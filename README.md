@@ -25,9 +25,9 @@ https://github.com/JacquelineCasali/soller.git
 2. `$ npm install`
 3. `$ npm start`
 
-## Site do Projeto
+## Website - click here to visit the soller website
 
-<!-- https://site-criptonoedas.vercel.app/ -->
+https://soller-seven.vercel.app/
 
 ## 📝 Developed  by
 

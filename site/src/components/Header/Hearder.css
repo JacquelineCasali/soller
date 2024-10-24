@@ -1,0 +1,159 @@
+.header{
+    height: 812px;
+
+    
+}
+
+
+
+
+
+/* .eclipse {
+    width: 782px;
+    height: 780px;
+    background-repeat: no-repeat;
+    background-image: url(../../../public/image/Ellipse1.png);
+    padding-top: 160px;
+    display: flex;
+  
+    gap: 16px;
+    flex-direction: column;
+    align-items: center;
+    background-position:  top right ;
+  } */
+
+
+header {
+    width: 100%;
+    /* height: 112px; */
+    border-bottom: 1px solid blue;
+    background:var(--branco);
+    /* position: sticky; */
+    top: 0;
+    left: 0;
+    /* z-index: 10; */
+    padding: 24px 80px;
+   
+
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    /* padding: 1rem; */
+}
+
+.header .container .left{
+    display: inline-flex;
+    align-items: center;
+  width: 511px;
+  height: 48px;
+  gap: 38px;
+}
+.header .container .h1{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 35.2px;
+    color: var(--black);
+ 
+}
+
+
+.nav-menu {
+    display: flex;
+  gap: 16px;
+  width: 392px;
+  margin-top: 5px;
+  
+}
+
+.nav-menu li {
+    padding: 12px 8px;
+gap: 8px;
+}
+
+.nav-menu a {
+    font-size: 1rem;
+    font-weight: 600;
+    color:var(--black);
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+.btn-group{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  width: 489px;
+  height: 64px;
+  gap: 16px;  
+
+
+}
+
+.fone{
+   width: 167px;
+   border-radius: 100px;
+   height: 48px;
+   display: inline-flex;
+    align-items: center;
+    padding: 12px 8px;
+  
+}
+.buttonText{
+    /* width: 127px; */
+    padding: 0 16px;
+    font-weight: 700;
+    font-size: var(--m);
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color:#0369A1 ;
+    margin-top: 7px;
+
+}
+
+/* @media screen and (max-width:1240px) {
+    
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-menu {
+        position: absolute;
+        flex-direction: column;
+        justify-content: start;
+        top: 90px;
+        right: -100%;
+        width: 50%;
+        height: 100vh;
+        transition: 0.4s;
+        z-index: 2;
+        background: #fff;
+        border-left: 1px solid #eee;
+    }
+
+    .nav-menu.active {
+        right: 0;
+    }
+
+    .nav-menu li {
+        padding: 1rem;
+        width: 100%;
+        border-bottom: 1px solid #eee;
+    }
+
+    .nav-menu a {
+        font-size: 1.2rem;
+    }
+
+
+}  */
+
+@media screen and (max-width: 478px) {
+    .header{
+        display: none;
+    }
+    
+}

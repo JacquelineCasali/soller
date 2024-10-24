@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from 'react'
 import depoimento from "../../services/depoimento.json"
+
 import Loading from "../Loading/Loading";
 import Carousel from '../Carousel/Carousel';
 import LerCard from './LerCard';
 export default function Card() {
     const [test] = useState(depoimento);
+  
     const [Ler, setLer] = useState(null);
     const [open, setOpen] = useState(false);
     const [loading,setLoading]=useState(true)
@@ -32,8 +34,15 @@ export default function Card() {
       />:
        (loading && <Loading />) || 
       <Carousel test={test}
+   
       onLer={handleLer}
     />
+
+
+  //   (loading && <Loading />) || 
+  //   <Carousel test={test}
+  //   onLer={handleLer}
+  // />
      }
      
      

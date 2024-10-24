@@ -5,7 +5,7 @@ import styles from "../Button/Button.module.css";
 export default function Container() {
   return (
     
-    <div className="container">
+    <div className="divcontainer">
       
       {/* <div className="sectionText">ola</div>   */}
       <div className="sectionText">

@@ -1,0 +1,33 @@
+[
+    {
+    
+      "titlePrincipal":"Services",
+      "titleSecundario":"Personalized services",
+  "paragrafo":"Pretium lectus ultrices sit tempor, sit ullamcorper volutpat et et. Auctor turpis semper id sit ornare maecenas lectus sed.",
+  "image":"",
+  "imageapp":"/image/app.png",
+  "text": "Posuere quis sed mauris non curabitur pretium elementum eget. Feugiat sed maecenas eu accumsan tristique.",
+  "name": "Et mauris" 
+  
+  },
+  
+    {
+      "id": "94313732",
+      "text": " Sit bibendum donec dolor fames neque vulputate non sit aliquam. Consequat turpis natoque leo, massa. ",
+      "name": "Eget sit"
+     },
+  
+    {
+      "id": "94313733",
+      "text": "Platea arcu dapibus non magna cursus lectus id sollicitudin. Enim viverra parturient tristique nulla.",
+      "name": "Imperdiet pellentesque"
+    },
+    {
+      "id": "94313734",
+      "text": "Congue mauris sem vel, urna viverra. Urna, nibh leo suscipit purus ut sed eros, consectetur viverra. ",
+      "name": "Non libero"
+    }
+  
+  
+  ]
+  

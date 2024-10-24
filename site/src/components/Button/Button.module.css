@@ -1,48 +1,52 @@
-.btn{
-    width: 320px;
-    height: 74px;
-    padding: 20px 24px ;
- border-radius: 100px;
- /* border: 2px solid var(--textColor); */
- font-weight: 700;
+.btn {
+  width: 306px;
+  height: 64px;
+  padding: 20px 24px;
+  border-radius: 100px;
+  /* border: 2px solid var(--textColor); */
+  font-weight: 700;
 
- /* color:var(--amarelo); */
-cursor: pointer;
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 20px;
-font-weight: 700;
-font-size: 24px;
-line-height: 24px;
-letter-spacing: 0.5px;
-/* color: var(--textColor); */
-
+  /* color:var(--amarelo); */
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-weight: 700;
+  font-size: var(--xl);
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  /* color: var(--textColor); */
 }
 
 .amarelo {
-    color:var(--amarelo);
-    border: 2px solid var(--amarelo);
-    background: transparent;
+  color: var(--amarelo);
+  border: 2px solid var(--amarelo);
+  background: transparent;
+
+ 
+
 }
 
-/* .amarelo {
-    color:var(--amarelo);
-    border: 2px solid var(--amarelo);
-    background: transparent;
-} */
+
 .roxo {
-    color:var(--roxo);
-    border: 2px solid var(--roxo);
-    background: transparent;
+  color: var(--roxo);
+  border: 2px solid var(--roxo);
+  background: transparent;
 }
 
+.amarelo:active,
+.amarelo:hover {
+  background: var(--amarelo);
+  color: #78350f;
+  box-shadow: rgb(0 0 0 / 20%) 0px 28px 45px;
 
-.btn:active, .btn:hover{
-    background: var(--amarelo);
-    color: #78350F;
+}
 
-
-   
+.roxo:active,
+.roxo:hover {
+  background: var(--roxo);
+  color: var(--amarelo);
+  box-shadow: rgb(0 0 0 / 20%) 0px 28px 45px;
 
 }

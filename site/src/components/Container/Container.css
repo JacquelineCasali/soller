@@ -1,4 +1,4 @@
-.container {
+.divcontainer {
     background: var(--roxoClaro);
     height: 949px;
     width: 100%;
@@ -46,5 +46,6 @@
   .screen {
   display: flex;
     object-fit: cover;
+    z-index: 2;
   }
   

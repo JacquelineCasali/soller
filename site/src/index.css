@@ -7,6 +7,8 @@
   --roxoClaro:#7E22CE;
   --black:#0F172A;
 --amarelo:#FCD34D;
+--marron: #D97706;
+
 --sm:14px;
 --m:16px;
 --xm:18px;
@@ -16,16 +18,7 @@
 
 
 
-/* xsm: 11,
-sm: 14,
-md: 16,
-lg: 18,
-xl: 24, */
 
-}
-/* cor verder da font */
-.primary {
-  color: var(--primary);
 }
 
 * {
@@ -43,11 +36,6 @@ a {
   text-decoration: none;
 
 }
-
-/* .container {
-  max-width: 1240px;
-  margin: auto;
-} */
 
 
 body {
